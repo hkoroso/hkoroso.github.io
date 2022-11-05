@@ -49,5 +49,9 @@ ul{
 }nav ul li {
     display: inline;
 }
+li a:hover {
+    background-color: rgb(231, 21, 102); }
+
+    li a{ text-decoration: none}
 
 

@@ -132,3 +132,30 @@ abbr{
 .inline {
     display: inline;
 }
+li a:hover {
+    background-color: rgb(226, 123, 246); }
+
+    li a{ text-decoration: none}
+    footer {
+        color: #fff;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        align-items: center;
+        background: #778899;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+    
+    footer div {
+        display: flex;
+    }
+    
+    footer div:first-child {
+        flex-direction: column;
+        margin-left: 15px;
+    }
+    
+    footer div:last-child {
+        margin-right: 15px;
+    }

@@ -89,3 +89,14 @@ abbr{
 nav ul li {
     display: inline;
 }
+li a:hover {
+    background-color: rgb(231, 21, 193); }
+
+    li a{ text-decoration: none}
+    .footer {
+        text-align: right;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        font-size: 11pt;
+    }
