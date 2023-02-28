@@ -1,0 +1,161 @@
+/* style.css */
+
+nav ul li {
+    display: inline;
+}
+html {
+    height: 100%;
+    background: #778899;
+}
+
+body {
+    position: relative;
+    padding-bottom: 100px;
+    margin: 0;
+    min-height: 90%;
+    background: #fff;
+}
+
+
+
+.profile_picture {
+    text-align: center;
+}
+
+.profile_picture img {
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+}
+
+.footer {
+    height: 100px;
+    text-align: right;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    font-size: 11pt;
+    background: #778899;
+    justify-content: space-between;
+}
+
+.footer>div {
+    padding: 15px;
+}
+body{
+    background: linear-gradient(90deg, rgb(237, 230, 227) 0%, rgb(236, 224, 230) 35%, rgb(250, 251, 255) 100%)
+}
+
+section{
+    background: #ffffff73;
+    padding: 15px;
+    margin: 10px;
+}
+
+footer{
+    background: #ffffff73;
+    padding: 15px;
+    margin: 10px;
+}
+
+.header {
+    background-image: url('../resource/images/header.jpg');
+    text-align: center;
+}
+
+.header-img {
+    height: 300px; 
+    border-radius: 50%;
+}
+
+/* .red{
+    color: #eb1c3a;
+} */
+
+.blue{
+    color: #1b1093;
+}
+
+#name{
+    font: normal small-caps bold 40px/30px Courier, serif;
+    text-align: center;
+}
+
+#about-me{
+    font: normal small-caps bold 40px/30px Tahoma, serif;
+    text-align: center;
+    color: #05256a;
+}
+
+a:link { color: #270d76; }
+
+a:visited { color: #0f1f78; }
+
+abbr{
+    color: #b90120; 
+}
+
+.mr-l-5p {
+    margin-left: 5%;
+}
+
+.mr-r-5p {
+    margin-right: 5%;
+}
+
+.mr-r-10p {
+    margin-right: 5%;
+}
+
+.w-30p {
+    width:30%;
+}
+
+.w-45p {
+    width:45%;
+}
+
+.w-50p {
+    width:50%;
+}
+
+.w-100p {
+    width:100%;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.inline {
+    display: inline;
+}
+li a:hover {
+    background-color: rgb(226, 123, 246); }
+
+    li a{ text-decoration: none}
+    footer {
+        color: #fff;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        align-items: center;
+        background: #778899;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+    
+    footer div {
+        display: flex;
+    }
+    
+    footer div:first-child {
+        flex-direction: column;
+        margin-left: 15px;
+    }
+    
+    footer div:last-child {
+        margin-right: 15px;
+    }
